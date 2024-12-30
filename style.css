@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue; /* Светло-голубой фон для всей страницы */
+    font-family: Arial, sans-serif; /* Шрифт для текста */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: navy; /* Тёмно-синий фон для шапки */
+    color: pink; /* Розовый цвет текста в шапке */
+    text-align: center; /* Текст по центру */
+    padding: 20px; /* Отступы внутри шапки */
+}
+
+main {
+    padding: 20px; /* Отступы внутри основного блока */
+    text-align: center; /* Текст по центру */
+    color: black; /* Чёрный текст */
+}
+
+footer {
+    background-color: darkgray; /* Серый фон для футера */
+    color: white; /* Белый текст в футере */
+    text-align: center; /* Текст по центру */
+    padding: 10px; /* Отступы внутри футера */
+}
