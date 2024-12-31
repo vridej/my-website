@@ -1,26 +1,86 @@
+/* Общий стиль страницы */
 body {
-    background-color: lightblue; /* Светло-голубой фон для всей страницы */
-    font-family: Arial, sans-serif; /* Шрифт для текста */
+    background-color: white;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: navy; /* Тёмно-синий фон для шапки */
-    color: pink; /* Розовый цвет текста в шапке */
-    text-align: center; /* Текст по центру */
-    padding: 20px; /* Отступы внутри шапки */
+/* Шапка */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff29a2; /* Ярко-розовый фон */
+    padding: 20px;
 }
 
-main {
-    padding: 20px; /* Отступы внутри основного блока */
-    text-align: center; /* Текст по центру */
-    color: black; /* Чёрный текст */
+.logo {
+    max-height: 50px;
+    margin-right: 10px;
 }
 
+.title {
+    max-height: 50px;
+}
+
+/* Слайды */
+.slides {
+    text-align: center;
+    padding: 20px;
+}
+
+.slide {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+/* Кнопка */
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff29a2;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #e12291;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Футер */
 footer {
-    background-color: darkgray; /* Серый фон для футера */
-    color: white; /* Белый текст в футере */
-    text-align: center; /* Текст по центру */
-    padding: 10px; /* Отступы внутри футера */
+    background-color: #ff29a2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer a.contact-link {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a.contact-link:hover {
+    text-decoration: none;
+    color: #e12291;
 }
